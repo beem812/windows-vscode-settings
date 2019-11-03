@@ -1,0 +1,52 @@
+{
+    "metals.javaHome": "C:\\Program Files\\Java\\jdk-11.0.4",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "vim.enableNeovim": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.useCtrlKeys": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.visualModeKeyBindings": [
+      {
+        "before": ["tab"],
+        "after": ["tab"]
+      }
+    ],
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["<leader>", "s"],
+        "commands": [":w"],
+      },
+      {
+        "before": ["<leader>", "t"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+    ],
+    "vim.leader": ",",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    }
+      
+}
